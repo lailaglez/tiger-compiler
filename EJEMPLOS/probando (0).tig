@@ -1,0 +1,9 @@
+let
+	type intarray = array of int
+	var i := 0
+	function f() : int = (i:=i+1; i)
+	var arr := intarray[5] of f()
+in
+	for i := 0 to 4 do
+		printi(arr[i])
+end

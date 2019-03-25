@@ -1,0 +1,12 @@
+let 
+    type record = { ages : arrayInt, name : B }
+    type arrayInt = array of int
+    type B = A
+    type A = string
+    var rec1 := record { ages = arrayInt [5] of 10, name = "Laila" }
+in
+    printiline(rec1.ages[0]);
+    printline(rec1.name);
+    printiline(ord(rec1.name));
+    printline(chr(rec1.ages[2]))
+end

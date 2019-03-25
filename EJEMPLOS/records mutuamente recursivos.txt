@@ -1,0 +1,6 @@
+let
+	type record1 = { field : record1, field2 : record2 }
+	type record2 = { field : record1, field2 : record2 }
+	var rec1 := record1 { field = nil, field2 = nil }
+in
+end

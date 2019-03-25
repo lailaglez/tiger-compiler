@@ -1,0 +1,12 @@
+TODO Tiger:
+Caso 11, defining mutually recursive functions
+Modificar == de los Types
+
+DONE:
+Hacer GenerateCode de & y | con cortocircuito
+Decirle a Mario que de los LValue solo VariableAcccessNode tiene VariableInfo en el caso de Array y Record tratar de resolverlo poniendo en la pila
+En la función chr y exit de la stdlib, hay que terminar la ejecución del programa con un código dado, cómo se hace eso???
+En la función chr de la stdlib, qué cosa es que el int esté fuera de rango???
+Garantizar que a var a no se le pueda asignar nil.
+Caso 6
+

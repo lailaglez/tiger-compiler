@@ -1,0 +1,10 @@
+let
+	function fib(x : int) : int = 
+		if x < 2 then
+			1
+		else
+			fib(x - 1) +  fib(x - 2)
+in
+	for i := 1 to 10 do
+        printiline(fib(i))
+end
